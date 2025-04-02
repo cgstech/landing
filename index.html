@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGS Tech</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cookie-popup" id="cookiePopup">
+        <p>Este site usa cookies para melhorar sua experiência. Ao continuar, você concorda com nossa <a href="#">Política de Cookies</a>.</p>
+        <button id="acceptCookies">Aceitar</button>
+    </div>
+    
+    <header id="header">
+        <div class="containerr">
+            <div class="flex">
+                <h1><a href="index.html"><i class="fa-brands fa-slack"></i>  CGS Tech</a></h1>
+                <nav>
+                    <a href="" class="links-menu">Home</a>
+                    <a href="#sobre" class="links-menu">A Empresa</a>
+                    <a href="#servi" class="links-menu">Serviços</a>
+                    <a href="projetos.html" class="links-menu">Projetos</a>
+                    <a href="blog.html" class="links-menu">Blog</a>
+                    <a href="auth/index.html" class="links-menu">Sistema</a>
+                </nav>
+                <div class="ct-btn">
+                    <a href="#" id="btnMenu"><i class="fa-solid fa-bars"></i></a>
+                    <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511964511742" class="btnContato"><button>CONTATO</button></a>
+                    
+                </div>
+            </div><!-- fim flex   -->
+        </div> <!-- fim container  -->
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="container limitador">
+                <div class="flex">
+                    <article class="box-txt">
+                        <h2>Deixe sua Marca no <span>Mundo Digital.</span> </h2>
+                        <form action="lead.php" method="POST">
+                            <label for="name">Nome</label>
+                            <input type="text" name="name" placeholder="Seu Nome" required>
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" placeholder="Seu E-mail" required>
+                            <label for="phone">Telefone</label>
+                            <input type="text" name="phone" placeholder="Seu Telefone" required>
+                            <input type="submit" value="Enviar">
+                        </form>
+                        
+                    </article>
+        
+                    
+                </div>
+            </div>
+        </section>
+        
+        <div id="servi" class="services limitador">
+            <h2>Nossos Serviços</h2>
+            <div class="row">
+                <div class="cardService">
+                    <span><i class="fa-solid fa-laptop-code"></i></span>
+                    <h3>Design Web</h3>
+                    <p>Criação de interfaces visuais para sites, focando na estética e na usabilidade.</p>
+                </div>
+                <div class="cardService">
+                    <span><i class="fa-solid fa-chart-line"></i></span>
+                    <h3>Marketing</h3>
+                    <p>Estrategias para promover produtos ou serviços e alcançar o público-alvo.</p>
+                </div>
+                <div class="cardService">
+                    <span><i class="fas fa-mobile-alt"></i></span>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Criação e manutenção de sites e aplicativos, incluindo front-end e back-end.</p>
+                </div>
+                <div class="cardService">
+                    <span><i class="fa-brands fa-slack"></i></span>
+                    <h3>Sistemas</h3>
+                    <p>Sistema de Gestão de Pedidos, Vendas e controle de estoque.</p>
+                </div>
+                <div class="cardService">
+                    <span><i class="fas fa-chart-pie" id="ic"></i></span>
+                    <h3>Consultoria</h3>
+                    <p>Assessoria especializada para resolver problemas e otimizar processos.</p>
+                </div>
+            </div>
+           </div>
+        
+           <section class="ctwave">
+            <section id="why-choose-us" class="limitador">
+                <article class="pq">
+                    <h2>Por Que Escolher a CGS Tech?</h2>
+                    <ul>
+                        <li><img src="imagens/icones/icons8-criatividade-e-desenvoltura-48.png" alt=""><strong>Experiência e Inovação:</strong> <br> <br> Nosso time de especialistas está sempre atualizado com as últimas tendências e tecnologias, garantindo soluções inovadoras e eficazes.</li>
+                        <li><img src="imagens/icones/icons8-mira-de-atirador-48.png" alt=""><strong>Foco no Cliente:</strong> <br><br> Cada projeto é único e adaptado às suas necessidades específicas. Trabalhamos em estreita colaboração com você para entregar resultados que superem suas expectativas.</li>
+                        <li><img src="imagens/icones/icons8-suporte-ao-cliente-48.png" alt=""><strong>Suporte Completo:</strong> <br><br>Oferecemos suporte contínuo para garantir que seu site esteja sempre funcionando perfeitamente, desde a implementação até a manutenção e atualizações futuras.</li>
+                    </ul>
+                </article>
+            </section>
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+            <div class="wave wave4"></div>
+        </section>
+        <section id="sobre" class="sobre">
+            <article class="box-main-sobre limitador">
+                <h2>Bem-vindo ao Nosso Mundo</h2>
+
+                <aside class="txt-hed">
+                    <p>Uma força de trabalho diversificada e qualificada, <br> <br>onde confiança e segurança são primordiais.</p>
+                </aside>
+                <aside class="box-sobre limitador">
+                    <div class="mission">
+                        <h3>Missão</h3>
+                        <p>
+                            Empoderar empresas com soluções inovadoras e eficientes, proporcionando crescimento sustentável e alinhado às suas necessidades.
+                        </p>
+                        <h3>Visão</h3>
+                        <p>
+                            Ser reconhecida como a principal parceira de inovação e tecnologia, ajudando empresas a crescer de forma eficiente e sustentável, transformando seus processos digitais.
+                        </p>
+                        <h3>Projetos</h3>
+                        <div class="card-img">
+                            
+                            <div>
+                               
+                                <figure>
+                                    <img src="imagens/header.svg" alt="">
+                                </figure>
+                                <figcaption>Odonto plus</figcaption>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="valorese">
+                        <h3>Valores</h3>
+                        <figure>
+                            <img  src="imagens/valores.svg" alt="">
+                        </figure>
+                    </div>
+                </div>
+            </article>
+        
+            </aside>
+        </section>
+        <section id="cta">
+            <article class="limitador cta">
+                <h2>Vamos Conversar</h2>
+                <p>Está pronto para dar o próximo passo? Clique no botão abaixo para agendar uma consulta gratuita e descobrir como podemos ajudar a impulsionar seu negócio com as melhores soluções web do mercado.</p>
+                <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511964511742" class="cta-button">Agendar Consulta Gratuita</a>
+            </article>
+        </section>
+    </main>
+
+   <footer>
+    <div class="pe">
+        <div><a href="." class="links-footer"><i class="fa-brands fa-facebook"></i></a><a href="" class="links-footer"><i class="fa-brands fa-square-instagram"></i></a><a href="" class="links-footer"><i class="fa-brands fa-linkedin"></i></a><a href="" class="links-footer"><i class="fa-brands fa-square-whatsapp"></i></a></div>
+    </div>
+    <div class="liks">
+        <a href="" class="linksnavf">Home</a><a href="" class="linksnavf">A empresa</a><a href="" class="linksnavf">Serviços</a><a href="" class="linksnavf">Projetos</a><a href="blog.html" class="linksnavf">Blog</a>
+    </div>
+    <div class="aside"></div>
+    <p class="direito">© 2024 CGS Tech. Todos os direitos reservados.</p>
+   </footer>
+
+
+    <script src="https://kit.fontawesome.com/3770ee41c0.js" crossorigin="anonymous"></script><!-- js font awesome -->
+
+    <script src="js/menu.js"></script><!--  -->
+</body>
+</html>
